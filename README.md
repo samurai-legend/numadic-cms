@@ -50,6 +50,12 @@ APP_KEYS=ROvDC/LXwukvzU90vfYWqw==,Dv86bw/qJYL5E5bXAutm+g==,ezIjuvsFvdx1VbJsNzNJw
 JWT_SECRET=e300b40c-8d94-409b-8bdc-57351da090af
 API_TOKEN_SALT=934b9da9e1a6acb158910242d89a6210
 ```
+| Name                           | Required (yes/no) | Default value         | Description                                                  |     |
+| ------------------------------ | ----------------- | --------------------- | ------------------------------------------------------------ | --- |
+| APP_KEYS                       | yes               | ROvDC/LXwukvzU90vfYWqw==,
+                                                       Dv86bw/qJYL5E5bXAutm+g==,
+                                                       ezIjuvsFvdx1VbJsNzNJwQ==,
+                                                       8W8BTN8dRhXljGbqlvScFQ== | Random App secret Keys | 
 ## ⚙️ Deployment
 
 ### `production build`
