@@ -52,10 +52,7 @@ API_TOKEN_SALT=934b9da9e1a6acb158910242d89a6210
 ```
 | Name                           | Required (yes/no) | Default value         | Description                                                  |     |
 | ------------------------------ | ----------------- | --------------------- | ------------------------------------------------------------ | --- |
-| APP_KEYS                       | yes               | ROvDC/LXwukvzU90vfYWqw==,
-                                                       Dv86bw/qJYL5E5bXAutm+g==,
-                                                       ezIjuvsFvdx1VbJsNzNJwQ==,
-                                                       8W8BTN8dRhXljGbqlvScFQ== | Random App secret Keys | 
+| APP_KEYS                       | yes               | ROvDC/LXwukvzU90vfYWqw==,Dv86bw/qJYL5E5bXAutm+g==,ezIjuvsFvdx1VbJsNzNJwQ==,8W8BTN8dRhXljGbqlvScFQ== | Random App Keys | 
 ## ⚙️ Deployment
 
 ### `production build`
