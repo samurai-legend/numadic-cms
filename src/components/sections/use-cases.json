@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_use_cases",
+  "info": {
+    "displayName": "Use Cases",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.heading",
+      "required": true
+    },
+    "useCaseTabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.use-case-tab",
+      "required": true,
+      "max": 3
+    }
+  }
+}

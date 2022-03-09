@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_card_type_as",
+  "info": {
+    "displayName": "Card Type A",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 85
+    }
+  }
+}

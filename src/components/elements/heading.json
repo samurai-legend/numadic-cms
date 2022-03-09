@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "horse-head"
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text",
+      "maxLength": 90
+    }
+  }
+}

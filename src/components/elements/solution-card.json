@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_solution_cards",
+  "info": {
+    "displayName": "Solution Card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 120
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

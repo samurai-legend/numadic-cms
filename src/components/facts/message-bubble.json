@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_facts_message_bubbles",
+  "info": {
+    "displayName": "Message Bubble",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

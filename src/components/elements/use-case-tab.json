@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_use_case_tab_s",
+  "info": {
+    "displayName": "Use Case Tab ",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25,
+      "unique": false
+    },
+    "tabContent": {
+      "type": "text",
+      "required": true,
+      "maxLength": 120
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.card-type-a",
+      "required": true
+    },
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "facts.message-bubble",
+      "max": 3,
+      "required": false
+    }
+  }
+}
