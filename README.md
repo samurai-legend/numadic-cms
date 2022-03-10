@@ -51,6 +51,15 @@ yarn build
 | PORT                           | yes               | 8082                  |           |
 | JWT_SECRET                     | yes               | e300b40c-8d94-409b-8bdc-57351da090af |  |
 | API_TOKEN_SALT                 | yes               | 934b9da9e1a6acb158910242d89a6210 | |
+| DATABASE_HOST                  | yes               | 127.0.0.1 | |
+| DATABASE_PORT                  | yes               | 5432      | |
+| DATABASE_NAME                  | yes               | numadic-cms | |
+| DATABASE_USERNAME              | yes               | root      | |
+| DATABASE_PASSWORD              | yes               | root      | |
+| DATABASE_SSL                   | no                | false     | Make true if connection is SSL |
+
+##### database used is PostgresSQL, please create database with collations utf8_unicode_ci
+
 ## ⚙️ Deployment
 
 ### `production build`
