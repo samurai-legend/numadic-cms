@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_open_positions",
+  "info": {
+    "displayName": "Open Positions",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "openPositionLink": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button",
+      "required": true
+    }
+  }
+}

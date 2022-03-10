@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_other_links",
+  "info": {
+    "displayName": "Other Links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "linkTitle": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.links",
+      "required": true,
+      "max": 6
+    }
+  }
+}

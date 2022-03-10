@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_movements",
+  "info": {
+    "displayName": "Movement",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.heading",
+      "required": true
+    },
+    "milestones": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "max": 3,
+      "component": "elements.milestones"
+    },
+    "collaboration": {
+      "displayName": "Clients Logos",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.clients-logos",
+      "required": true
+    }
+  }
+}

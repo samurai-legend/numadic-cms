@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

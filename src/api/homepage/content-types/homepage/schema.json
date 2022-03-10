@@ -17,7 +17,10 @@
       "components": [
         "sections.landing",
         "sections.solutions",
-        "sections.use-cases"
+        "sections.use-cases",
+        "sections.footer",
+        "sections.investors",
+        "sections.movement"
       ],
       "required": true
     }

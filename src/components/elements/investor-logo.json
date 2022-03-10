@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_investor_logos",
+  "info": {
+    "displayName": "Investor Logo",
+    "icon": "money-bill-wave-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

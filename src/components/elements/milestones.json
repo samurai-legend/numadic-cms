@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_milestones",
+  "info": {
+    "displayName": "milestones",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

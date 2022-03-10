@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_investors",
+  "info": {
+    "displayName": "Investors",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.heading",
+      "required": true
+    },
+    "investorLogos": {
+      "displayName": "Investor Logo",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.investor-logo",
+      "max": 4,
+      "required": true
+    },
+    "openPositions": {
+      "displayName": "Open Positions",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.open-positions",
+      "required": true
+    }
+  }
+}
