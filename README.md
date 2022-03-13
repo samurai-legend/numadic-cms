@@ -57,6 +57,11 @@ yarn build
 | DATABASE_USERNAME              | yes               | root      | |
 | DATABASE_PASSWORD              | yes               | root      | |
 | DATABASE_SSL                   | no                | false     | Make true if connection is SSL |
+| AWS_ACCESS_KEY_ID              | yes                |    | aws-key |
+| AWS_ACCESS_SECRET              | yes                |    | aws-secret |
+| AWS_REGION                     | yes                |    | aws-region |
+| AWS_BUCKET_NAME                | yes                |    | aws-s3-bucket |
+| AWS_BASE_URL                   | yes                |    | aws-s3-domain access URL ending with trailing "https://example.s3.ap-south-1.amazonaws.com/" |
 
 ##### database used is PostgresSQL, please create database with collations utf8_unicode_ci
 
