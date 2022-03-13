@@ -12,7 +12,7 @@
       ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false
     },
     "price": {
       "type": "biginteger",

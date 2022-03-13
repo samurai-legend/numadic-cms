@@ -12,7 +12,7 @@
       ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false
     },
     "cardTitle": {
       "type": "string",
