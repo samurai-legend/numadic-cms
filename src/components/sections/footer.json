@@ -17,7 +17,7 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.address",
-      "max": 2
+      "max": 3
     },
     "otherLinks": {
       "displayName": "Other Links",

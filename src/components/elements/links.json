@@ -2,7 +2,8 @@
   "collectionName": "components_elements_links",
   "info": {
     "displayName": "Links",
-    "icon": "external-link-square-alt"
+    "icon": "external-link-square-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,11 @@
     "url": {
       "type": "text",
       "required": true
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
     }
   }
 }
