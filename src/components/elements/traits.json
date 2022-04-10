@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_traits",
+  "info": {
+    "displayName": "Traits",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

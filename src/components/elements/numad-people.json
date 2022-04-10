@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_numad_people",
+  "info": {
+    "displayName": "Numad People",
+    "icon": "user-alt"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

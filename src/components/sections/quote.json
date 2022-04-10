@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "quote": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 500
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_title_with_descriptions",
+  "info": {
+    "displayName": "Title with Description",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

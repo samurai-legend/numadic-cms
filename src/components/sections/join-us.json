@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_join_uses",
+  "info": {
+    "displayName": "Join Us",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "positionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.links",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    }
+  }
+}

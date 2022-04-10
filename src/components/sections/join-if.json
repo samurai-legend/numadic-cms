@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_join_ifs",
+  "info": {
+    "displayName": "Join If",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "traits": {
+      "displayName": "Traits",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.traits",
+      "required": true
+    }
+  }
+}

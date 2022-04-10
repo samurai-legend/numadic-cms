@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_landing_inners",
+  "info": {
+    "displayName": "Landing Inner",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.links"
+    }
+  }
+}

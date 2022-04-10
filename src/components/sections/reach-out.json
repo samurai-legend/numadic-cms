@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_reach_outs",
+  "info": {
+    "displayName": "Reach Out",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "emailText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

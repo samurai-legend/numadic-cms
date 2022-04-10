@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "about_us_pages",
+  "collectionName": "careers_pages",
   "info": {
-    "singularName": "about-us-page",
-    "pluralName": "about-us-pages",
-    "displayName": "About Us Page",
+    "singularName": "careers-page",
+    "pluralName": "careers-pages",
+    "displayName": "Careers Page",
     "description": ""
   },
   "options": {
@@ -16,12 +16,10 @@
       "type": "dynamiczone",
       "components": [
         "sections.landing-inner",
-        "sections.quote",
-        "sections.roadmap",
-        "sections.values",
-        "sections.numads",
-        "sections.join-us",
-        "sections.footer"
+        "sections.looking-for",
+        "sections.join-if",
+        "sections.footer",
+        "sections.reach-out"
       ],
       "required": true
     },

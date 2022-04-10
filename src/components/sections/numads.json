@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_numads",
+  "info": {
+    "displayName": "Numads",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "content": {
+      "displayName": "Title with Description",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.title-with-description",
+      "required": true
+    },
+    "numads": {
+      "displayName": "Numad People",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.numad-people",
+      "required": true
+    }
+  }
+}
